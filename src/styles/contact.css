@@ -1,0 +1,49 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 100px;
+}
+.nameEmail {
+  display: flex;
+  gap: 50px;
+  width: 50%;
+  padding: 10px;
+}
+.nameEmail input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #454343e6;
+  border-left: 1px solid #454343e6;
+  outline: none;
+  font-size: 20px;
+}
+.textarea {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.textarea .dropdown {
+  padding: 20px 0px;
+}
+.textarea .dropdown .dropContent {
+  padding: 10px 0px;
+  font-size: 20px;
+  outline: none;
+  color: #454343e6;
+}
+.dropContent option {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+select option {
+  gap: 20px;
+  font-size: 20px;
+}
+textarea {
+  font-size: 20px;
+  min-width: 50%;
+  outline: none;
+}

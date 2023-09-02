@@ -1,0 +1,104 @@
+:root {
+  --bodyColor: #2b63d9;
+  --textColor: #ffffff;
+}
+
+.nav-container {
+  background-color: var(--bodyColor);
+  border-bottom: 1px solid #648ef7;
+  position: sticky;
+  z-index: 999;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--textColor);
+  padding: 10px 100px;
+  scroll-behavior: smooth;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+.logo span {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+.navs {
+  display: flex;
+  align-items: center;
+}
+.navs ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+li a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+li .drop {
+  display: flex;
+  align-items: center;
+}
+.hmburger lord-icon {
+  display: none;
+  cursor: pointer;
+}
+.dropdown {
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 10px 40px;
+  }
+  ul li {
+    display: none;
+  }
+  .hmburger lord-icon {
+    display: flex;
+  }
+}

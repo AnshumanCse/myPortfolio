@@ -1,0 +1,60 @@
+:root {
+  --bodyColor: #2b63d9;
+  --textColor: #ffffff;
+}
+
+.about {
+  display: flex;
+  padding: 0px 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px 100px;
+
+  /* border-bottom: 2px solid #648ef7; */
+}
+h2 {
+  font-size: 2.5vmax;
+  color: #454343e6;
+  text-align: center;
+}
+.my-photo img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid var(--bodyColor);
+  background: rgb(0, 106, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 106, 233, 1) 0%,
+    rgba(0, 188, 226, 1) 51%,
+    rgba(44, 44, 213, 1) 100%
+  );
+}
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.about-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-text span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #424242;
+}
+.about-text p {
+  font-size: 20px;
+  color: #383838;
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    flex-wrap: wrap;
+  }
+}
