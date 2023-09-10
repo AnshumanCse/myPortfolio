@@ -4,9 +4,8 @@
 }
 
 .home {
-  height: 90vh;
+  height: 110vh;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   /* flex-direction: column; */
   background-color: var(--bodyColor);

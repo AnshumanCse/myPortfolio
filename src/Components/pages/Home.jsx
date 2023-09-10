@@ -1,6 +1,6 @@
 import React from "react";
-import gif from "./imgs/ill.gif";
-import "../styles/home.css";
+import gif from "../imgs/ill.gif";
+import "../../styles/home.css";
 
 const Home = () => {
   return (
