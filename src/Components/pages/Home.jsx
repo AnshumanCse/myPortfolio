@@ -9,7 +9,7 @@ const Home = () => {
         <h1>Hi👋🏻 I'm Anshuman Tiwari</h1>
         <span>
           Full Stack Developer || Graphic Designer || Freelancer || 1+ year of
-          experience of open source contribution.
+          experience in web development and Graphic designing.
         </span>
         <p>
           I'm have 1+ year of experience in Web development, graphic designing,

@@ -10,11 +10,10 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="app">
-      <div style={{ position: "sticky" }}>
-        <Navbar />
+      <Navbar />
 
-        <Home />
-      </div>
+      <Home />
+
       <About />
       <Services />
       <Contacts />

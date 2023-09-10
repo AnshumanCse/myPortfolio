@@ -4,7 +4,7 @@
 }
 
 .home {
-  height: 110vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   /* flex-direction: column; */
@@ -12,6 +12,7 @@
   color: var(--textColor);
   padding: 10px 100px;
   flex-wrap: wrap;
+  gap: 50px;
 }
 .home-left {
   width: 50%;
